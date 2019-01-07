@@ -1,0 +1,52 @@
+.about-container{
+    margin-left: 15%;
+    margin-right: 27%;
+    position: absolute;
+}
+
+.tech{
+    margin-top: 5%;
+}
+
+.tech h2{
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #C92627;
+    font-size: 40px;
+    font-family: Orbitron,sans-serif;
+
+}
+.tech p{
+    margin-top: 5%;
+    font-family: "Coda", sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.navbar{
+    display: none;
+}
+
+.article-item-mob{
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        display: none;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .about-container{
+        margin:0;
+        position:relative;
+    }
+    .rightbar{
+        display: none;
+    }
+
+}

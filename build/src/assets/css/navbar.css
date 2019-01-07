@@ -1,0 +1,208 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+body{
+  font-family: "Montserrat",sans-serif;
+}
+#mobile-logo {
+    display: none;
+}
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+}
+.navbar{
+  margin-bottom: 0;
+}
+
+.navbar-toggle {
+    z-index: 3;
+}
+
+.navbar-brand-centered {
+    position: fixed;
+    left: 40%;
+    display: block;
+    width: 11%;
+    text-align: center;
+    background-color: transparent;
+}
+
+.navbar-default {
+    background-color: #262d3a;
+    border: none;
+    font-family:"Montserrat",sans-serif;
+    font-weight: 900;
+}
+
+#abt-us {
+    position: fixed;
+    left: 10%;
+    top: 2%;
+}
+
+#gallery{
+  position:fixed;
+  left:22%;
+  top:2%;
+}
+
+#test{
+    position: fixed;
+    left: 33%;
+    top: 2%;
+}
+
+#academy {
+    position: fixed;
+    right: 32%;
+    top: 2%;
+}
+
+#register{
+  position: fixed;
+  right: 17%;
+  top: 2%;
+}
+
+#blog{
+    position: fixed;
+    right: 8%;
+    top: 2%;
+}
+
+#navbar-logo {
+    width: 55%;
+    margin-top: -5%;
+    cursor: pointer;
+    position: absolute;
+}
+
+.hover1{
+  font-size: 105%;
+  font-weight: 900;
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+.hover1:hover{
+    color: white;
+}
+
+#reg:hover{
+  background-color: #383838;
+}
+
+/* navbar */
+
+
+@media (min-width:700px) and (max-width:800px) {
+    #avatar {
+        position: fixed;
+        right: -5%;
+    }
+    #academy {
+        position: fixed;
+        right: 15%;
+    }
+}
+
+@media (max-width:600px) {
+    #navbar-logo {
+        display: none;
+    }
+
+    #mobile-logo {
+        margin-top: 1%;
+        display: block;
+        color: #C92627;
+        font-size:30px;
+        font-weight: 900;
+        letter-spacing: 3px;
+        font-family:"Orbitron",sans-serif;
+    }
+
+    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse{
+        background-color:#262d3a;
+        border-color: #262d3a;
+    }
+
+    .nav-img {
+        width: 8%;
+        height: 8%;
+    }
+
+    #abt-us,
+    #academy,
+    #gallery,
+    #register,
+    #blog,
+    #test{
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-top: 0;
+        padding: 5%;
+        font-size: 140%;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Coda",sans-serif;
+        color: white;
+    }
+
+
+    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse{
+        max-height: 450px;
+    }
+
+    .navbar-toggle {
+        border: none;
+        background: transparent !important;
+    }
+
+    .navbar-toggle:hover {
+        background: transparent !important;
+    }
+
+    .navbar-toggle .icon-bar {
+        background: #C92627 !important;
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s;
+    }
+
+    .navbar-toggle.collapsed > .top-bar {
+        transform: rotate(0);
+    }
+
+    .navbar-toggle.collapsed > .middle-bar {
+        opacity: 1;
+    }
+
+    .navbar-toggle.collapsed > .bottom-bar {
+        transform: rotate(0);
+    }
+
+    .top-bar {
+        transform: rotate(45deg);
+        transform-origin: 10% 10%;
+    }
+
+    .middle-bar {
+        opacity: 0;
+    }
+
+    .bottom-bar {
+        transform: rotate(-45deg);
+        transform-origin: 10% 90%;
+    }
+
+}

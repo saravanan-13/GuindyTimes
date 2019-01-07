@@ -1,0 +1,236 @@
+#news-events{
+    background-color: whitesmoke;
+    margin-top: 5.5%;
+}
+.news-row{
+    width: 100%;
+    margin: 0;
+    padding: 3% 0;
+    max-width: 100%;
+}
+
+.new-latest-announcements{
+    margin-left: 8%;
+}
+
+.new-latest-announcements h1,.new-latest-news h1{
+    text-align: left;
+    font: 15px/24px "raleway-heavy", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 900;
+    color: #252525;
+    margin-bottom: 0;
+}
+.new-latest-announcements hr,.new-latest-news hr{
+    margin: 10px 0 12px;
+    width: 180px;
+}
+
+#events-wrapper {
+    margin-top: 3%;
+}
+.events-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 255px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 5%;
+}
+
+.title-date {
+    display: flex;
+    padding: 4% 5% 2% 5%;
+    text-align: left;
+}
+
+.title-date .title h1 {
+    font-size: 1.4em;
+    padding: 0;
+    margin: 0;
+}
+
+.title-date .title p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.title-date .date {
+    position: absolute;
+    left: 75%;
+}
+
+.title-date .date span {
+    font-size: 1.1em;
+    font-weight: 900;
+    background-color: black;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 25px;
+}
+
+.events-card img {
+    height: 150px;
+}
+
+.events-card .icons {
+    margin-top: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.events-card .icons a {
+    color: black;
+    font-family: "Raleway-bold", sans-serif;
+    margin: 0 5%;
+    font-size: 1.8em;
+}
+
+.events-card .icons a:hover {
+    color: #C92627;
+}
+
+.events-card .icons .compass {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.events-card .icons a span {
+    font-size: 0.5em;
+    margin-left: 5%;
+}
+
+.events-card .icons .compass {
+    margin-right: 0;
+}
+
+.events-card .icons .eye, .events-card .icons .share {
+    margin-left: 27%;
+}
+
+@media (max-width: 720px) {
+    .news-row{
+        max-width: 100%;
+    }
+    #news-events{
+        margin-top: 15%;
+    }
+    .new-latest-announcements{
+        margin: 0;
+        padding: 2% 5%;
+        text-align: center;
+    }
+    .new-latest-announcements h1,.new-latest-news h1{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .new-latest-announcements hr,.new-latest-news hr{
+        border: solid #C92627;
+        border-width: 3px 0 0;
+        width: 90px;
+        margin: 11px auto 15px;
+        height: 0;
+        clear: both;
+        text-align: center;
+    }
+
+    #events-wrapper{
+       width: 100%;
+        max-width: 100%;
+        padding: 0 2%;
+    }
+
+    .events-card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        width: 320px;
+        height: 250px;
+        margin: auto;
+        text-align: center;
+        border-radius: 10px;
+        background-color: white;
+        margin-bottom: 5%;
+    }
+
+    .title-date {
+        display: flex;
+        padding: 4% 5% 2% 5%;
+        text-align: left;
+    }
+
+    .title-date .title h1 {
+        font-size: 1.4em;
+        padding: 0;
+        margin: 0;
+    }
+
+    .title-date .title p {
+        padding: 0;
+        margin: 0;
+        font-size: 1.1em;
+    }
+
+    .title-date .date {
+        position: absolute;
+        left: 70%;
+    }
+
+    .title-date .date span {
+        font-size: 1.1em;
+        font-weight: 900;
+        background-color: black;
+        color: white;
+        padding: 5px 12px;
+        border-radius: 25px;
+    }
+
+    .events-card img {
+        height: 150px;
+    }
+
+    .events-card .icons {
+        margin-top: 0;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+
+    }
+
+    .events-card .icons a {
+        color: black;
+        font-family: "Raleway-bold", sans-serif;
+        margin: 0 5%;
+        font-size: 1.6em;
+    }
+
+    .events-card .icons a:hover {
+        color: #C92627;
+    }
+
+    .events-card .icons .compass {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .events-card .icons a span {
+        font-size: 0.5em;
+        margin-left: 5%;
+    }
+
+    .events-card .icons .compass {
+        margin-right: 0;
+    }
+
+    .events-card .icons .eye, .events-card .icons .share {
+        margin-left: 27%;
+    }
+
+
+}
